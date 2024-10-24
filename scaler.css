@@ -1,0 +1,537 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navBar {
+    width: 100%;
+    padding: 20px;
+
+
+    #navbarSupportedContent {
+        * {
+            font-size: 18px;
+            color: black;
+        }
+
+        ul>li>a:hover {
+            color: blue;
+        }
+    }
+}
+
+#btn {
+    padding: 10px 40px 10px 40px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border: 1px blue solid;
+}
+#btn1{
+    padding: 8px 30px 8px 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 50px 50px 500px 50px;
+    width: 100%;
+    background-image: url(https://assets-v2.scaler.com/assets/academy/svg/banner-background-34136d3a9ddff172e6bae6e3d8283c452231dcda2196b055bfa2e34e222754b7.svg);
+    background-position: center;
+    #door {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 40px;
+
+        #your {
+            font-size: 40px;
+            color: white;
+        }
+
+        #now {
+            font-size: 25px;
+            color: gray;
+        }
+
+        #button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            #book {
+                font-size: 20px;
+                padding: 15px 10px;
+                background-color: red;
+                color: white;
+                border-radius: 10px;
+                border: none;
+            }
+
+            #explore {
+                font-size: 20px;
+                padding: 15px 10px;
+                background-color: white;
+                color: rgb(39, 39, 239);
+                border-radius: 10px;
+                border: none;
+            }
+        }
+
+        #next {
+            font-size: 19px;
+            color: orange;
+        }
+    }
+
+    #door1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        box-shadow: 0px 5px 25px gray;
+        background-color: white;
+        padding: 15px 40px;
+        border-radius: 7px;
+        #book {
+            font-size: 45px;
+        }
+
+        #input {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 20px;
+            #name {
+                font-size: 20px;
+                width: 500px;
+                padding: 18px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+
+            #email {
+                font-size: 20px;
+                width: 500px;
+                padding: 18px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+        }
+
+        #select {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+            #cars {
+                font-size: 20px;
+                padding: 15px 5px;
+                border-radius: 5px;
+                width: 80px;
+                border: 1px gray solid;
+            }
+
+            #phone {
+                font-size: 20px;
+                width: 420px;
+                padding: 15px 5px;
+                border-radius: 5px;
+                border: 1px gray solid;
+            }
+        }
+
+        #continue {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:start;
+            gap: 10px;
+            #con {
+                font-size: 20px;
+                padding: 6px 15px;
+                background-color: red;
+                color: white;
+                border-radius: 5px;
+                border: none;
+            }
+            #limited {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: start;
+                gap: 10px;
+
+                #fa {
+                    color: red;
+                    padding-top: 5px;
+                    font-size: 30px;
+                }
+
+                #seat {
+                    color: red;
+                    padding-top: 6px;
+                }
+            }
+        }
+
+        #already {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 10px;
+            #have{
+                font-size: 20px;
+                color:gray;
+            }
+            #htt{
+                font-size: 20px;
+                text-decoration: none;
+            }
+        }
+        #by{
+            color:gray;
+        }
+    }
+}
+#home1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 30px 30px 30px 30px;
+    box-shadow: 0px 5px 25px gray;
+    margin-top: -400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    #program {
+        font-size: 40px;
+    }
+
+    #door2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+
+        #room {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 25px;
+
+            #Structured {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(0, 180, 252);
+                overflow: hidden;
+                padding: 15px 20px 60px 40px;
+                border-radius: 10px;
+
+                #best {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: orange;
+                    width: 400px;
+                    margin-right: -300px;
+                }
+
+                #box {
+                    width: 150px;
+                }
+
+                #industry {
+                    font-size: 32px;
+                    width: 350px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+
+            #live {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(244, 103, 127);
+                overflow: hidden;
+                padding: 15px 20px 30px 40px;
+                border-radius: 10px;
+
+                #bes {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: purple;
+                    width: 400px;
+                    margin-right: -300px;
+                }
+
+                #dot {
+                    width: 120px;
+                }
+
+                #class {
+                    font-size: 32px;
+                    width: 350px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+
+            #practical {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(107, 235, 107);
+                overflow: hidden;
+                padding: 15px 15px 74px 15px;
+                border-radius: 10px;
+
+                #be {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: blue;
+                    width: 400px;
+                    margin-right: -350px;
+                }
+
+                #hand {
+                    width: 120px;
+                }
+
+                #real {
+                    font-size: 32px;
+                    width: 400px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+
+        #room1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: start;
+            gap: 25px;
+
+            #regular {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(28, 179, 239);
+                overflow: hidden;
+                padding: 15px 20px 60px 40px;
+                border-radius: 10px;
+
+                #est {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: orange;
+                    width: 400px;
+                    margin-right: -300px;
+                }
+
+                #men {
+                    width: 120px;
+                }
+
+                #from {
+                    font-size: 32px;
+                    width: 350px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+
+            #career {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: orange;
+                overflow: hidden;
+                padding: 0px 20px 30px 20px;
+                border-radius: 10px;
+
+                #st {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: blue;
+                    width: 400px;
+                    margin-right: -350px;
+                }
+
+                #doute {
+                    width: 120px;
+                }
+
+                #support {
+                    font-size: 32px;
+                    width: 380px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+
+            #peer {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(128, 0, 128, 0.701);
+                overflow: hidden;
+                padding: 0px 20px 30px 20px;
+                border-radius: 10px;
+
+                #t {
+                    font-size: 25px;
+                    rotate: 45deg;
+                    background-color: orange;
+                    width: 400px;
+                    margin-right: -350px;
+                }
+
+                #of {
+                    width: 110px;
+                }
+
+                #aspir {
+                    font-size: 32px;
+                    width: 400px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+#hoom2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    #we {
+        font-size: 40px;
+    }
+
+    #door3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+
+        #missed {
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 20px 10px 20px 10px;
+            border-radius: 10px;
+            #watch {
+                font-size: 20px;
+                color: gray;
+                width: 400px;
+            }
+        }
+        #work{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+            #pause{
+                font-size: 20px;
+                color: gray;
+                width: 380px;
+            }
+        }
+        #jobs{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+            #decide{
+                font-size: 20px;
+                color: gray;
+                width: 350px;
+            }
+        }
+    }
+    #door4{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+        #want{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 20px 20px 20px 20px;
+            border-radius: 10px;
+            #acess{
+                font-size: 20px;
+                color: gray;
+                width: 400px;
+            }
+        }
+        #have{
+            display: flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            border: 1px gray solid;
+            padding: 31px 20px 31px 20px;
+            border-radius: 10px;
+            #get{
+                font-size: 20px;
+                color: gray;
+                width: 400px;
+            }
+        }
+    }
+}
